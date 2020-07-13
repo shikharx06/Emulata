@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".dashboard.DashboardActivity"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main2">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/models_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to Emulata"
+                    android:textColor="#90000000"
+                    android:textSize="30sp"
+                    android:padding="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"/>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/solar_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_solar_system"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Solar System"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/bohr_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_bohr"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Bohr Atomic Model"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rutherford_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_rutherford"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rutherford Atomic Model"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/thompson_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_thompson"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Thompson Atomic Model"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/plant_cell_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_plant_cell"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Plant Cell"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/mitochondria_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_mitochondria"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mitochondria"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/methane_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_methane"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Methane"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/ethane_card"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="4dp"
+                    android:background="@drawable/rounded_bg"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_ethane"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ethane"
+                        android:background="@drawable/rounded_bg"
+                        android:padding="10dp"
+                        android:textColor="#ffffff"/>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

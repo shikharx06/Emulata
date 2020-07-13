@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "877815337962",
+    "firebase_url": "https://emulata-ea361.firebaseio.com",
+    "project_id": "emulata-ea361",
+    "storage_bucket": "emulata-ea361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877815337962:android:5e8f90a995e49099",
+        "android_client_info": {
+          "package_name": "com.cynergy.emulata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877815337962-n2bv94qckfuea9pg73s5t763hk92vili.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cynergy.emulata",
+            "certificate_hash": "ba8c6246c22e63c38bc495200af0c694328d0a7d"
+          }
+        },
+        {
+          "client_id": "877815337962-uoj7np7d7j139p3mh693i7kdg1on4npr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyZGZKaZ8HWVk738n95VPdgXtBaC7Ymeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877815337962-uoj7np7d7j139p3mh693i7kdg1on4npr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
